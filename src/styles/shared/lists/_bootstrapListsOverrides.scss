@@ -1,0 +1,84 @@
+// .panel, .panel-default {
+//   border: 0 solid transparent !important;
+// }
+
+.list-group .list-group-item .row {
+  margin-bottom: 0;
+}
+
+.list-group {
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+  position: relative;
+  left: -8px;
+  margin-left: -12px;
+  visibility: visible;
+  float: left;
+}
+
+.player-edit-container {
+  .player-booth-number {
+    margin-top: 15px;
+  }
+  .player-booth-number-block {
+    margin-top: 5px;
+  }
+  .player-presentation-button {
+    margin-top: 30px;
+  }
+  .player-dropzone-zone {
+    padding: 15px;
+    text-align: center;
+  }
+  .player-dropzone {
+    width: 200px;
+    height: 100px;
+    border: 2px dashed rgb(102, 102, 102);
+    border-radius: 5px;
+  }
+  .player-number-title {
+    font-size: 12px;
+    color: grey;
+    margin-bottom: -3px;
+  }
+  .list-index {
+    margin-top: -9px;
+    color: grey;
+  }
+  .list-right-button {
+    margin-top: 20px;
+    float: right;
+  }
+  .list-middle-button {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .list-left-button {
+    margin-top: 20px;
+    float: left;
+  }
+  .list-group-horizontal-outer {
+    max-width: 100%;
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .list-group-horizontal {
+    display: table;   /* Allow the centering to work */
+	  margin: 0 auto;
+  }
+  .list-group-item {
+    display: table-cell;
+  }
+  .horizontal-list-group-item-wrapper {
+    display: table-cell;
+    padding: 20px;
+  }
+}
+
+// .list-group .list-group-item {
+//   border: 2px solid lightgrey;
+// }

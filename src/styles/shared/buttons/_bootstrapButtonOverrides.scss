@@ -1,0 +1,51 @@
+// These defaults are needed for materialize
+
+.btn, .btn-large, .btn-flat {
+  background: $btn-materialize-color;
+  padding: 0 1.2em !important;
+  font-size: 12px;
+  text-transform: none;
+  &:hover,
+  &:focus,
+  &.focus {
+    background: lighten($btn-materialize-color, 4%);
+  }
+}
+
+.btn-default {
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  text-shadow: none;
+
+  &:focus {
+    background: $btn-materialize-color;
+  }
+}
+
+.btn-default:active:hover,
+.btn-default.active:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.btn-default:active.focus,
+.btn-default.active.focus {
+  color: $white;
+  background: $btn-materialize-color;
+  border: none;
+}
+
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: $white;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none;
+}

@@ -1,0 +1,24 @@
+.signage-player-presentation-page {
+
+  .carousel {
+    height: 100%;
+  }
+
+  .carousel-control {
+    display: none;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+
+  .carousel-inner {
+    .item {
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+}
